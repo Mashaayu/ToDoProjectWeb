@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.upper-container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.upper-container1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#Task{
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 2.5rem;
+}
+
+#Lists{
+    font-size: 2.5rem;
+    font-weight: 100;
+    opacity: 0.5;
+}
+
+.upper-container2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#addlist{
+    font-size: 2.5rem;
+    opacity: 0.5;
+}
+
+#circle{
+    height: fit-content;
+}
+
+.card{
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    margin: 20px;
+    position: sticky;
+    top: 0;
+}
+
+.row {
+    margin: 0 -5px;
+    overflow: auto;
+}
+
+.card1{
+    box-shadow: 5px 5px 10px gray;
+    padding: 40px;
+    margin: 50px;
+    text-align: center;
+    background-color: #f1f1f1;
+    height: 45vh;
+    border: 1.5px solid green;
+    border-radius: 8px;
+}
+
+.div1{
+    position: relative;
+    text-align: left;
+    top: -20px;
+    right: 10px;
+    color: darkred;
+    border-bottom: 1px solid black;
+}
+
+.div2{
+    position: relative;
+    text-decoration: line-through;
+    color: deepskyblue;
+    text-align: right;
+    font-weight: bold;
+}
+
+.div3{
+    position: relative;
+    text-align: center;
+}
+
+input[type="checkbox"]{
+    margin-right: 10px;
+}
+
