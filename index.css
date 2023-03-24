@@ -143,6 +143,6 @@ input[type="checkbox"]{
     border-radius: 20px;
     bottom: 30px;
     border: none;
-    position: relative;
+    position: fixed;
     font-size: 30px;
 }
